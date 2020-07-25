@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 html,body {
-  background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db, #b3dbd3,  #69b7eb);
+  background: linear-gradient(90deg, #f4d6db, #69b7eb,#2a9d8f, #69b7eb, #f4d6db);
   font-size: 1.1rem;
   font-family: "Quicksand", sans-serif;
   height: 100%;
