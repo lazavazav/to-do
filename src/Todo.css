@@ -19,6 +19,23 @@
   transition-delay: 200ms;
   opacity: 0.5;
   text-decoration-line: line-through;
+  background: linear-gradient(
+    to right,
+    rgb(243, 226, 75) 0%,
+    rgb(248, 181, 37) 0%,
+    rgb(247, 157, 83) 30%,
+    rgb(248, 250, 112) 40%
+  );
+  background-size: 300% 300%;
+  animation: Slide 1s ease 1;
+}
+@keyframes Slide {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
 }
 
 .Todo-task.completed .Todo-task:before {
